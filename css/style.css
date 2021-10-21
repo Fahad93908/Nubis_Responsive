@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-brand{
+    width: 15%;
+}
+header{
+  background-image: url(../images/header-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #000000;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #0092ff;
+}
+.btn-custom{
+    background: #0092FF;
+    border-radius: 33px;
+    color: #FFFFFF;
+    padding: 5px 15px;
+    font-size: 20px;
+}
+.btn-custom:hover{
+    color: #fff;
+    background-color:#3B58E3 ;
+}
+.nav-item{
+    margin-left: 20px;
+}
+.header_content{
+    padding-top: 80px;
+}
+
+.header_content h1{
+    color: #223150;
+    font-weight: bold;
+    font-size: 59px;
+    line-height: 70px;
+}
+.header_content p{
+    color: #223150;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 36px;
+    padding: 20px 0px;
+}
+
+.btn_content{
+    background: #0092FF;
+    color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 33px;
+    padding: 10px 30px;
+    font-size: 20px;
+}
+.btn_content:hover{
+    background-color:#3B58E3  ;
+    color: #fff;
+}
+
+.left_content {
+        padding-top: 35%;
+    }
+
+.service_section{
+    background: #FCFAFB;
+}
+.service_content{
+
+background: #ddedfb;
+
+padding: 20px;
+}
+.icon_bg{
+    background: #DDEDFB;
+    width: 25%;
+    border-radius: 10px;
+}
+.icon_bg i{
+    font-size: 65px;
+    color: #0092FF;
+    padding: 30px 20px;
+}
+.service_content h1{
+
+    color: #223150;
+    padding: 30px 0px;
+    font-size: 30px;
+}
+
+.service_content p{
+    font-size: 20px;
+    line-height: 33px;
+    color: #3c445f;
+    padding-bottom: 19px;
+}
+.service_content h5{
+    cursor: pointer;
+    color: #223176;
+}
+.service_content h5 i{
+
+}
+.explore{
+    color: #223150;
+    font-weight: 800;
+    padding-top: 150px;
+    padding-bottom: 70px;
+}
+.details_section{
+
+}
+.details_right{
+    padding-top: 50px;
+
+}
+.details_right h5{
+    color: #F0483E;
+}
+.details_right h1{
+    color: #223150;
+    font-weight: 700;
+    padding: 20px 0px;
+}
+.details_right p{
+    font-size: 19px;
+    color: #3c445f;
+    line-height: 35px;
+    padding: 20px 0px;
+}
+.btn_quete{
+    background: #0092FF;
+    border-radius: 33px;
+    color: #FFFFFF;
+    padding: 10px 25px;
+    font-size: 20px;
+}
+.btn_quete:hover{
+    color: #fff;
+    background-color:#3B58E3 ;
+}
+.service_features{
+    background-image: url(../images/features-background.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 70px;
+}
+.service_features h1{
+    color: #fff;
+    font-weight: 600;
+    padding-top: 80px;
+    padding-bottom: 35px;
+}
+
+.service_features p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff;
+    padding-bottom: 35px;
+
+}
+.Service_right{
+    padding-bottom: 85px;
+}
+.Service_right h1{
+
+}
+.Service_right p{
+
+}
+.Service_right a:hover{
+    background: #FF517A;
+    color: #fff;
+
+}
+.img img {
+    width: 100%;
+}
+.customer_test{
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+.testimonial_section{
+    background: #FCFAFB;
+}
+.features_content{
+    
+}
+.features_content img{
+    width: 100%;
+}
+
+.trasted_section{
+    background: #FCFAFB;
+}
+.trasted_section h3{
+    padding-top: 100px;
+    padding-bottom: 15px;
+}
+.trasted_section span{
+    color: #3B58E2;
+}
+.customer_position{
+    padding-top: 15px;
+    padding-bottom: 100px;
+}
+.influencer{
+    background-image:url(../images/invitation-background.jpg) ;
+    width: 77%;
+    margin: auto;
+    border-radius: 15px;
+}
+.section_control{
+    padding: 150px 0px;
+}
+
+.section_control h1{
+    color: #fff;
+}
+.section_control p{
+    color: #fff;
+    padding: 20px 0px;
+}
+.form_section{
+
+}
+.form_section h5{
+    color: #F0483E;
+}
+.form_section h1{
+    font-weight: 700;
+    color: #223150;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.form{
+
+}
+.form input{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px 10px;
+    outline: none;
+
+}
+.form input[type="submit"] {
+    background: #0092FF;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+}
+.form input[type="submit"]:hover{
+    background-color:#0967af ;
+}
+
+.form_left {
+    padding-top: 35px;
+}
+.form_section {
+    padding: 100px 0px;
+}
+.social_section{
+    background: #FCFAFB;
+    padding: 100px;
+}
+.social_section h3{
+    color: #223150;
+    font-weight: 600;
+}
+.social_icon{
+    width: 25%;
+    margin: auto;
+}
+.social_icon ul{
+    list-style: none;
+}
+.social_icon ul li{
+    float: left;
+    margin-left: 16px;
+    font-size: 30px;
+    color: #0092FF;
+    padding: 35px 0px;
+}
+.unorder_list{
+
+}
+.unorder_list ul{
+
+}
+.unorder_list ul li{
+    list-style: none;
+}
+.unorder_list ul li a{
+    text-decoration: none;
+    color: #909094;
+}
+
+
+
+/* .preloader{
+    min-height: 100vh;
+    background-color: #295D89;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loader{
+    width: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    animation: 4s rotate linear infinite;
+}
+@keyframes rotate{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.loader span{
+    width: 30px;
+    height: 30px;
+    background-color: #C4CBAA;
+    margin: 5px;
+    animation: scale 1s linear infinite;
+}
+@keyframes scale{
+    50%{
+        transform: scale(1.2);
+    }
+}
+.loader span:nth-child(1){
+    border-radius: 50% 50% 0% 50%;
+    animation-delay:.3s;
+}
+.loader span:nth-child(2){
+    border-radius: 50% 50% 50% 0%;
+    background-color: #FFD957;
+    animation-delay:.5s;
+}
+.loader span:nth-child(3){
+    border-radius: 50% 0% 50% 50%;
+    background-color: #00B1C6;
+    animation-delay:.8s;
+}
+.loader span:nth-child(4){
+    border-radius: 0% 50% 50% 50%;
+    background-color: #E4BE7D;
+} */
